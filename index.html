@@ -1,0 +1,26 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main class="main">
+            <h1 class="header">Metric/Imperial unit conversion</h1>
+            <input placeholder="Enter value" type="number" id="num-el" oninput="updateValues()" />
+        </main>
+            <section class="values">
+                <container class="meter">
+                    <h3>Length(Meter/Feet)</h3>
+                    <p><span id="outputLength"></span></p>
+                </container>
+                    <container class="liter">
+                        <h3>Volume (Liters/Gallons)</h3>
+                         <p><span id="outputVolume"></span></p>
+                    </container>
+                        <container class="kilo">
+                            <h3>Mass (Kilograms/Pounds)</h3>
+                            <p><span id="outputMass"></span></p>
+                        </container>        
+            </section>
+        <script src="index.js"></script>
+    </body>
+</html>
